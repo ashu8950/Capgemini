@@ -9,7 +9,7 @@ class Anagram{
     public static boolean isAnangram(String a , String b){
         if(a.length()!=b.length()){
             return false;
-        }
+        } ///df
         a = a.toLowerCase();
         b = b.toLowerCase();
         char[]arr = a.toCharArray();
